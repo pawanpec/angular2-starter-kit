@@ -16,5 +16,5 @@ import {DownloadSection} from './components/downloadSection.component';
     ],
     template: require('./home.template.html')
 })
-export class Home {
+export class Tenant1_Home {
 }

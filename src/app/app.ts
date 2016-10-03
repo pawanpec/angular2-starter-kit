@@ -13,7 +13,8 @@ import {
   ROUTER_DIRECTIVES,
 } from 'angular2/router';
 import {Home} from './pages/home/home.component';
-
+import {Tenant1_Home} from './tenant1/home/home.component'
+import {Tenant2_Home} from './tenant2/home/home.component'
 @Component({
   selector: 'app',
   directives: [
@@ -26,6 +27,8 @@ import {Home} from './pages/home/home.component';
 @RouteConfig([
   // main page
   { path: '/',   name: 'Home', component: Home, useAsDefault: true },
+  { path: '/tenant1',   name: 'Tenant1_Home', component: Tenant1_Home},
+  { path: '/tenant2',   name: 'Tenant2_Home', component: Tenant2_Home},
   // default route
   { path: '/**', name: 'Root', redirectTo: ['/Home'] },
 
