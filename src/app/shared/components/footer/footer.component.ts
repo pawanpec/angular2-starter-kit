@@ -6,4 +6,6 @@ import {Component} from 'angular2/core';
   ],
   template: require('./footer.template.html')
 })
-export class Footer {}
+export class Footer {
+  text="main footer";
+}
