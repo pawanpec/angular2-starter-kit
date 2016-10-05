@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
-import {Footer} from '../footer/footer.component';
-import {Header} from '../header/header.component';
+import {Footer} from '../../../../tenant1/home/components/footer/footer.component';
+import {Header} from '../../../../tenant1/home/components/header/header.component';
 
 @Component({
   selector: 'cbody',

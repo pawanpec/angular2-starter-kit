@@ -1,14 +1,22 @@
 import {Component} from 'angular2/core';
-import {Header} from '../../shared/components/header/header.component';
-import {Footer} from '../../shared/components/footer/footer.component';
-import {Body} from '../../shared/components/body/body.component';
+import {Footer as FooterCore} from '../../shared/components/footer/footer.component';
+// import {Body} from '../../shared/components/body/body.component';
+import {Body} from './components/body/body.component';
 import {Tagline} from './components/tagline.component';
 import {DownloadSection} from './components/downloadSection.component';
+
+// class Header extends HeaderCore{
+//     abc = 'This is the Header of tenant1';
+// }
+
+class Footer extends FooterCore{
+    footerContent = 'This is Footer of tenant1';
+}
 
 @Component({
     selector: 'home',
     directives: [
-        Header,
+        // Header,
         Footer,
         Body,
         Tagline,
@@ -16,5 +24,6 @@ import {DownloadSection} from './components/downloadSection.component';
     ],
     template: require('./home.template.html')
 })
+
 export class Tenant1_Home {
 }

@@ -1,8 +1,10 @@
 import {Component} from 'angular2/core';
-import {Header} from '../../shared/components/header/header.component';
+import {Header} from '../../tenant2/home/components/header/header.component';
 import {Footer} from '../../shared/components/footer/footer.component';
 import {Body} from '../../shared/components/body/body.component';
 import {DownloadSection} from './components/downloadSection.component';
+
+
 
 @Component({
     selector: 'home',
