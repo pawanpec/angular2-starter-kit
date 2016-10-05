@@ -6,8 +6,6 @@ import {Component} from 'angular2/core';
   ],
   template: `
     <div class="col-xs-12 text-center">
-      <a class="btn full puffy" href="https://github.com/pmachowski/angular2-starter-kit/archive/master.zip">Download</a>
-
       <h5 class="brand-color-2 padtop2"><strong>Downloading Component for Tenant2</strong></h5>
     </div>
   `

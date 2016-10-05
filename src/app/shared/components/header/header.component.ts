@@ -7,7 +7,7 @@ import {Component} from 'angular2/core';
   template: require('./header.template.html')
 })
 export class Header {
-  abc='Angular 2 Starter Kit Header component';
+  abc='Angular 2 shared header text';
 }
 
 

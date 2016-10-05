@@ -4,7 +4,7 @@ import {Header as HeaderCore} from '../../../../shared/components/header/header.
 
 @Component ({
     selector: 'header',
-    directives: [
+    directives: [banne
     ],
     template: require('./header.template.html')
 })

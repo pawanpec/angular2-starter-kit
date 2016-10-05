@@ -8,7 +8,7 @@ import {Component} from 'angular2/core';
     <div class="col-xs-12 text-center">
       <a class="btn full puffy" href="https://github.com/pmachowski/angular2-starter-kit/archive/master.zip">Download</a>
 
-      <h5 class="brand-color-2 padtop2"><strong>Downloading Component</strong></h5>
+      <h5 class="brand-color-2 padtop2"><strong>Downloading Component default</strong></h5>
     </div>
   `
 })

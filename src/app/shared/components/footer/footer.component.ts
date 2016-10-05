@@ -7,5 +7,5 @@ import {Component} from 'angular2/core';
   template: require('./footer.template.html')
 })
 export class Footer {
-  footerContent = 'footer component Made with &#9825; by';
+  footerContent = 'footer component from shared';
 }
