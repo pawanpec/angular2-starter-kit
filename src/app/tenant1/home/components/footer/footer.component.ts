@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import {Footer as Footer_Main} from '../../../../shared/components/footer/footer.component';
 
 @Component({
   selector: 'footer',
