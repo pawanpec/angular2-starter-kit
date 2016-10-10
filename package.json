@@ -12,6 +12,7 @@
     "clean:logs": "rimraf logs",
     "prebuild": "npm run clean:dist",
     "build:dev": "node tools/build.dev.js",
+    "build:tenant1": "node tools/build.tenant1.js",
     "build": "node tools/build.prod.js",
     "prestart": "npm run build",
     "start": "npm run serve",

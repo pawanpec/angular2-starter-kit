@@ -12,7 +12,7 @@ import {
   RouteConfig,
   ROUTER_DIRECTIVES,
 } from 'angular2/router';
-import {Home} from './home/home.component';
+import {Tenant1_Home as Home} from '../tenant1/home/home.component'
 @Component({
   selector: 'app',
   directives: [

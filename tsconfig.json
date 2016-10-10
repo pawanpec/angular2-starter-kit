@@ -21,8 +21,8 @@
     "src/app/main/boot/boot_browser.ts",
     "src/app/main/boot/boot_worker_app.ts",
     "src/app/main/boot/boot_worker.ts",
-    "./src/app/server/ng.ts",
-    "./src/app/server/server.ts",
+    "./src/app/main/server/ng.ts",
+    "./src/app/main/server/server.ts",
     "./test/unit.spec.ts",
     "./typings.d.ts"
   ],

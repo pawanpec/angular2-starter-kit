@@ -3,7 +3,7 @@ require('zone.js/dist/zone-node');
 require('zone.js/dist/long-stack-trace-zone');
 
 const http = require('http');
-const constants = require('./constants');
+const constants = require('../constants');
 
 const HOST = constants.HOST;
 const PORT = constants.PORT;
