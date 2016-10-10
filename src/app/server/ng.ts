@@ -9,12 +9,12 @@ import {
   renderDocumentWithPreboot
 } from 'angular2-universal';
 
-const constants = require('../pages/constants');
+const constants = require('../main/constants');
 if (!constants.IS_DEV_ENV) {
   enableProdMode();
 }
 
-import { App } from '../pages/app';
+import { App } from '../main/app';
 
 function reduceScripts(content, src) {
   return `${content}<script type="text/javascript" src="${src}"></script>`;
