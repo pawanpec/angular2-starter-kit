@@ -1,5 +1,5 @@
 const path = require('path');
-const webpackConfig = require('./webpack.dev.config.js');
+const webpackConfig = require('./webpack.main.config.js');
 
 const WEBPACK_TESTING_CONFIG = webpackConfig.TESTING_CONFIG;
 

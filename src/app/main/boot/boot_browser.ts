@@ -10,7 +10,7 @@ import { BROWSER_PROVIDERS, BROWSER_APP_PROVIDERS, } from 'angular2/platform/bro
 import { ROUTER_PROVIDERS, Router } from 'angular2/router';
 import { App } from '../app';
 
-const constants = require('../constants');
+const constants = require('../../constants');
 if (!constants.IS_DEV_ENV) {
   enableProdMode();
 }

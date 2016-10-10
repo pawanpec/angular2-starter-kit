@@ -6,12 +6,15 @@ require('zone.js/dist/long-stack-trace-zone');
 
 // set the dev environment variable
 process.env.NODE_ENV = 'dev';
-
+const appName=process.argv[2];
+console.log(appName);
+const consFilePath='../src/app/constants';
+const configsFileName='../webpack.main.config.js';
 const path = require('path');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
-const constants = require('../src/app/main/constants');
-const configs = require('../webpack.dev.config.js');
+const constants = require(consFilePath);
+const configs = require(configsFileName);
 
 const HOST = constants.HOST || 'localhost';
 const PORT = constants.PORT;

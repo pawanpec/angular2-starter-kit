@@ -13,6 +13,7 @@ import {
   ROUTER_DIRECTIVES,
 } from 'angular2/router';
 import {Home} from './home/home.component';
+import {AboutUs} from '../shared/components/aboutus.component';
 @Component({
   selector: 'app',
   directives: [
@@ -25,6 +26,7 @@ import {Home} from './home/home.component';
 @RouteConfig([
   // main page
   { path: '/',   name: 'Home', component: Home, useAsDefault: true },
+  { path: '/aboutus',   name: 'AboutUs', component: AboutUs},
   // default route
   { path: '/**', name: 'Root', redirectTo: ['/Home'] },
 

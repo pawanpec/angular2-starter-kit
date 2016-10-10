@@ -9,7 +9,7 @@ import {
   renderDocumentWithPreboot
 } from 'angular2-universal';
 
-const constants = require('../constants');
+const constants = require('../../constants');
 if (!constants.IS_DEV_ENV) {
   enableProdMode();
 }

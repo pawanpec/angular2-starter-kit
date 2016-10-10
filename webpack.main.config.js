@@ -8,7 +8,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // constants
-const constants = require('./src/app/main/constants');
+const constants = require('./src/app/constants');
 const DefinePlugin       = webpack.DefinePlugin;
 const DllPlugin          = webpack.DllPlugin;
 const DllReferencePlugin = webpack.DllReferencePlugin;

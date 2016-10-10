@@ -5,4 +5,4 @@ import {Header} from '../components/header/header.component';
   directives: [Header],
   template: require('./aboutus.template.html')
 })
-export class Aboutus {}
+export class AboutUs {}
