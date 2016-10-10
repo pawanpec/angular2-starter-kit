@@ -10,7 +10,7 @@ process.env.NODE_ENV = 'dev';
 const path = require('path');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
-const constants = require('../constants');
+const constants = require('../src/app/pages/constants');
 const configs = require('../webpack.dev.config.js');
 
 const HOST = constants.HOST || 'localhost';

@@ -27,10 +27,10 @@ exports.PUBLIC_DIR  = fixPath(exports.DIST_DIR, 'public');
 exports.PRIVATE_DIR = fixPath(exports.DIST_DIR, 'private');
 exports.SERVER_DIR  = fixPath(exports.SRC_DIR,  'server');
 
-exports.SERVER_SOURCE_PATH     = fixPath(exports.SRC_DIR, 'server/server.ts');
-exports.BROWSER_SOURCE_PATH    = fixPath(exports.SRC_DIR, 'boot_browser.ts');
-exports.WORKER_SOURCE_PATH     = fixPath(exports.SRC_DIR, 'boot_worker.ts');
-exports.WORKER_APP_SOURCE_PATH = fixPath(exports.SRC_DIR, 'boot_worker_app.ts');
+exports.SERVER_SOURCE_PATH     = fixPath(exports.SRC_DIR, 'app/server/server.ts');
+exports.BROWSER_SOURCE_PATH    = fixPath(exports.SRC_DIR, 'app/pages//boot/boot_browser.ts');
+exports.WORKER_SOURCE_PATH     = fixPath(exports.SRC_DIR, 'app/pages/boot/boot_worker.ts');
+exports.WORKER_APP_SOURCE_PATH = fixPath(exports.SRC_DIR, 'app/pages/boot/boot_worker_app.ts');
 
 exports.VENDOR_DLL_MANIFEST_FILE = 'vendor-manifest.json';
 exports.VENDOR_DLL_MANIFEST_PATH = fixPath(exports.PUBLIC_DIR, exports.VENDOR_DLL_MANIFEST_FILE);

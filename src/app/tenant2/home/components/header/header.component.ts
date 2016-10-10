@@ -4,8 +4,7 @@ import {Header as HeaderCore} from '../../../../shared/components/header/header.
 
 @Component ({
     selector: 'header',
-    directives: [banne
-    ],
+    directives: [],
     template: require('./header.template.html')
 })
 export class Header extends HeaderCore{}

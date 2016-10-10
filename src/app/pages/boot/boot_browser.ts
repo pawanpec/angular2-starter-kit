@@ -8,7 +8,7 @@ import 'zone.js/dist/long-stack-trace-zone';
 import { platform, ComponentRef, Injector, enableProdMode } from 'angular2/core';
 import { BROWSER_PROVIDERS, BROWSER_APP_PROVIDERS, } from 'angular2/platform/browser';
 import { ROUTER_PROVIDERS, Router } from 'angular2/router';
-import { App } from './app/app';
+import { App } from '../app';
 
 const constants = require('../constants');
 if (!constants.IS_DEV_ENV) {

@@ -11,7 +11,7 @@ import {
   WORKER_APP_ROUTER
 } from 'angular2/platform/worker_app';
 import { APP_BASE_HREF, Router } from 'angular2/router';
-import { App } from './app/app';
+import { App } from '../app';
 
 const constants = require('../constants');
 if (!constants.IS_DEV_ENV) {

@@ -1,6 +1,6 @@
 // import styles for bundling only on the browser
 if (process.env.BROWSER_ENV) {
-  require('./../styles/importer.less');
+  require('./styles/importer.less');
 }
 
 import {
@@ -12,9 +12,9 @@ import {
   RouteConfig,
   ROUTER_DIRECTIVES,
 } from 'angular2/router';
-import {Home} from './pages/home/home.component';
-import {Tenant1_Home} from './tenant1/home/home.component'
-import {Tenant2_Home} from './tenant2/home/home.component'
+import {Home} from './home/home.component';
+import {Tenant1_Home} from '../tenant1/home/home.component'
+import {Tenant2_Home} from '../tenant2/home/home.component'
 @Component({
   selector: 'app',
   directives: [
