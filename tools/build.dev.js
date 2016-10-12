@@ -6,8 +6,6 @@ require('zone.js/dist/long-stack-trace-zone');
 
 // set the dev environment variable
 process.env.NODE_ENV = 'dev';
-const appName=process.argv[2];
-console.log(appName);
 const consFilePath='../src/app/constants';
 const configsFileName='../webpack.main.config.js';
 const path = require('path');

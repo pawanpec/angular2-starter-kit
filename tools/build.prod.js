@@ -3,7 +3,7 @@
 const os = require('os');
 const webpack = require('webpack');
 const configs = require('../webpack.prod.config.js');
-const constants = require('../constants');
+const constants = require('../src/app/constants');
 
 const EOL = os.EOL;
 

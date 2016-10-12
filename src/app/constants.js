@@ -20,7 +20,10 @@ exports.WORKER_NAME     = 'worker';
 exports.WORKER_APP_NAME = 'worker_app';
 exports.HOST = process.env.HOST || 'localhost';
 if(appName=='tenant1'){
-  exports.PORT = process.env.PORT || 5000;
+  exports.PORT = process.env.PORT || 4001;
+}
+if(appName=='tenant2'){
+  exports.PORT = process.env.PORT || 4002;
 }
 if(appName=='main'){
   exports.PORT = process.env.PORT || 4000;

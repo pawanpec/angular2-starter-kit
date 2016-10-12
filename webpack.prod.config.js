@@ -12,7 +12,7 @@ const CopyWebpackPlugin    = require('copy-webpack-plugin');
 const WebpackMd5Hash       = require('webpack-md5-hash');
 
 // constants
-const constants          = require('./constants');
+const constants = require('./src/app/constants');
 const DefinePlugin       = webpack.DefinePlugin;
 const DllPlugin          = webpack.DllPlugin;
 const DllReferencePlugin = webpack.DllReferencePlugin;
